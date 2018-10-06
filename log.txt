@@ -1,0 +1,121 @@
+$ node liri.js 
+0
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/1NslKOZobWxINFaFkLol3r
+Album: The Hits--Chapter One
+--------------------------------------
+1
+Artist(s): Backstreet Boys
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/5ySxm9hxBNss01WCL7GLyQ
+Album: Millennium
+--------------------------------------
+2
+Artist(s): Anthem Lights
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/6y6y4kyZ81PF951e9N4WBM
+Album: Covers Part IV
+--------------------------------------
+3
+Artist(s): Manuel Costa
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/5OTVQJeg9hddMiZOnjMS4S
+Album: I Want It That Way
+--------------------------------------
+4
+Artist(s): Various Artists
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/7LfKQOyYrhtCEqR4rr2J2M
+Album: Punk Goes Pop
+--------------------------------------
+5
+Artist(s): "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Link to Song: https://open.spotify.com/album/4VzAwj9nYwEqjY6JLaTwCm
+Album: Poodle Hat
+--------------------------------------
+6
+Artist(s): Various Artists
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/71WupOKqXgSrgg0CivZDHS
+Album: 90 Sweet 90s Hits!
+--------------------------------------
+7
+Artist(s): NKOTBSB
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/5Zwuaan4RIS108lyMEYYmw
+Album: NKOTBSB
+--------------------------------------
+8
+Artist(s): Glee Cast
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Link to Song: https://open.spotify.com/album/1sFs6ZD66GxP9g8kcwISh1
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+--------------------------------------
+9
+Artist(s): Tyler and Mark
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/2OB116yi2gPBqwgQvqjKIy
+Album: Beautiful Dreams
+--------------------------------------
+10
+Artist(s): Boyce Avenue
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/7hh9qCfFuLlaMpjCMzTiZz
+Album: Cover Sessions, Vol. 2
+--------------------------------------
+11
+Artist(s): Steel Panther
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/0cKszqNmOM9mjoiKqR9BIS
+Album: I Want It That Way
+--------------------------------------
+12
+Artist(s): "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Link to Song: https://open.spotify.com/album/2WMY5Qm6ztMQsAubpumeb4
+Album: The Essential "Weird Al" Yankovic
+--------------------------------------
+13
+Artist(s): Various Artists
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/4VyzyexBobu0w5hS3Bcmrg
+Album: NOW That's What I Call 90s Pop
+--------------------------------------
+14
+Artist(s): Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/1jRyMHSkbnP8GwptMnh66z
+Album: Selfies on Kodachrome
+--------------------------------------
+15
+Artist(s): Scary Pockets
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/5RUgGybyrfKUKE5hBTKLum
+Album: Nu Funk
+--------------------------------------
+16
+Artist(s): #90s Update
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/58NjaJdMt512amLTyVRKpe
+Album: #90s Update
+--------------------------------------
+17
+Artist(s): Landon Austin
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/6sBR6yebVg4PX9ZzlgR4rr
+Album: I Want It That Way
+--------------------------------------
+18
+Artist(s): Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/3ML7JPnFJCwqWQ9593iNW8
+Album: PMJ Is For Lovers: The Love Song Collection
+--------------------------------------
+19
+Artist(s): Jay Smith
+Song Name: I Want It That Way
+Link to Song: https://open.spotify.com/album/62ovMmmt0NYjdXvd34mzry
+Album: Jay Smith
+--------------------------------------
