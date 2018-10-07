@@ -16,7 +16,7 @@ var printThis = ""
 var printThisTot =""
 var inpt = whatWant
 whatWant = encodeURI(whatWant)
-fs.appendFile("log.txt", "$ node liri.js " + inpt + "\r\n", function (err) {
+fs.appendFile("log.txt", "$ node liri.js " +service+" "+ inpt + "\r\n", function (err) {
     if (err) {
         return console.log(err);
     }
@@ -54,13 +54,8 @@ function sptify() {
                 var sng = "Song Name: " + theReturn[i].name
                 var lnk = "Link to Song: " + theReturn[i].album.external_urls.spotify
                 var albm = "Album: " + theReturn[i].album.name
-                console.log(i)
-                console.log(art)
-                console.log(sng)
-                console.log(lnk)
-                console.log(albm)
-                console.log(lineBreak)
-                printThis= i + "\r\n" + art + "\r\n" + sng + "\r\n" + lnk + "\r\n" + albm + "\r\n" + "" + lineBreak
+                var thisCount= i+1
+                printThis= thisCount + "\r\n" + art + "\r\n" + sng + "\r\n" + lnk + "\r\n" + albm + "\r\n" + "" + lineBreak
                 console.log(printThis)
                 printThisTot = printThisTot.concat(printThis)
             }
@@ -77,18 +72,18 @@ function sptify() {
 
 }
 function mvie() {
-    if (whatWant === undefined) {
+    if (whatWant === "") {
         whatWant = "Mr. Nobody"
-        console.log("I am here")
     }
     var movie = whatWant
+    
     request("http://www.omdbapi.com/?t=" + movie + "=&plot=short&apikey=trilogy", function (error, response, body) {
         if (!error && response.statusCode === 200) {
 
             var ttl = "Title: " + JSON.parse(body).Title
             var yr = "Year: " + JSON.parse(body).Year
             var mdb = "IMDB Rating: " + JSON.parse(body).Ratings[0].Value
-            var rtm = "Rotten Tomato Rating: " + JSON.parse(body).Ratings[0].Value
+            var rtm = "Rotten Tomato Rating: " + JSON.parse(body).Ratings[1].Value
             var cntry = "Country: " + JSON.parse(body).Country
             var lngge = "Language: " + JSON.parse(body).Language
             var plt = "Plot: " + JSON.parse(body).Plot
@@ -104,10 +99,11 @@ function mvie() {
     })
 }
 function cncert() {
-    if (whatWant === undefined) {
-        whatWant = "oar"
-    }
     var artist = whatWant
+    if (whatWant === "") {
+        artist = "oar"
+    }
+    
     
     request("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=28712c353ec64645faae102f822be11c", function (error, response, body) {
         if (!error && response.statusCode === 200) {
