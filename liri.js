@@ -75,8 +75,7 @@ function mvie() {
     if (whatWant === "") {
         whatWant = "Mr. Nobody"
     }
-    var movie = whatWant
-    
+    var movie = whatWant 
     request("http://www.omdbapi.com/?t=" + movie + "=&plot=short&apikey=trilogy", function (error, response, body) {
         if (!error && response.statusCode === 200) {
 
@@ -118,15 +117,12 @@ function cncert() {
                 console.log(printThis)
                 printThisTot = printThisTot.concat(printThis)
                
-            }
-            
+            }       
             fs.appendFile("log.txt",  printThisTot + lineBreak, function (err) {
                 if (err) {
                     return console.log(err);
                 }
             });
-            
-
         }
     })
 }
